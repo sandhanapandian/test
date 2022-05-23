@@ -76,7 +76,7 @@ function MyForm() {
         react_1.default.createElement("br", null),
         react_1.default.createElement("hr", null),
         react_1.default.createElement("label", null,
-            "Enter your Full name :",
+            "Enter your Full temp - edited name :",
             react_1.default.createElement("input", { type: "text", name: "username", value: inputs.username || "", onChange: handleChange })),
         react_1.default.createElement("br", null),
         react_1.default.createElement("hr", null),
