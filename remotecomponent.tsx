@@ -3,6 +3,7 @@ import { Button, Card } from "@uitk/react";
 
 const AnotherComp = (props : any) => {
   return <div style={{ display : 'flex', justifyContent : 'space-between'}}>
+    <h1>Edited in remote server as tsx file</h1>
     { 
       props.data.map((value : number , index : number)=>{
         return <h1 key={index}>{value}</h1>
